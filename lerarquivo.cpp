@@ -28,7 +28,7 @@ int main () {
          if (buffer[n] == ';') buffer[n] = '\t';
       }
   
-      printf("RECODES: \nnome: \t\tpontos: \n%s", buffer);
+      printf("%s", buffer);
       getch();
       delete []buffer;
    }
