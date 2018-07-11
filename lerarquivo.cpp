@@ -8,7 +8,7 @@ int main () {
  char * buffer;
 
  ifstream is;
- is.open ("jogadores.csv", ios::in);
+ is.open ("matriz2_pcv.txt", ios::in);
 
  is.seekg (0, ios::end);
  length = is.tellg();
