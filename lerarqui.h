@@ -1,3 +1,6 @@
+#ifndef LERARQUI_H_INCLUDED
+#define LERARQUI_H_INCLUDED
+
 #include <conio.h>
 #include <iostream>
 #include <fstream>
@@ -8,7 +11,7 @@ int main () {
  char * buffer;
 
  ifstream is;
- is.open ("jogadores.csv", ios::in);
+ is.open ("matriz2_pcv.txt", ios::in);
 
  is.seekg (0, ios::end);
  length = is.tellg();
@@ -19,24 +22,29 @@ int main () {
     int n = 0;
     buffer = new char[length];
     is.read(buffer,length);
-   
-   if (length > 0) 
+
+   if (length > 0)
    {
-      while(n < length) //isso substitue o ";" para um espaÃ§o
+      while(n < length) //isso substitue o ";" para um espaço
       {
          n++;
          if (buffer[n] == ';') buffer[n] = '\t';
       }
-  
-      printf("RECODES: \nnome: \t\tpontos: \n%s", buffer);
+
+      printf("%s", buffer);
       getch();
       delete []buffer;
    }
  }
  else {
-   printf("Arquivo nÃ£o foi aberto");
+   printf("Arquivo não foi aberto");
    getch();
 }
 
   is.close();
 }
+
+
+
+
+#endif // LERARQUI_H_INCLUDED

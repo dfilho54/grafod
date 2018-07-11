@@ -1,0 +1,15 @@
+https://www.geeksforgeeks.org/generate-graph-using-dictionary-python/
+
+https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
+
+http://bdtd.ibict.br/vufind/Record/CAMP_820d543f92d61e835e4e7fb80fd9007b
+
+https://paginas.fe.up.pt/~rossetti/rrwiki/lib/exe/fetch.php?media=teaching:1011:cal:08_2.09_1.grafos6.pdf
+
+http://www.ebah.com.br/content/ABAAAhKUkAF/caixeiro-viajante-carteiro-chines
+
+https://www.geeksforgeeks.org/eulerian-path-and-circuit/
+
+https://www.geeksforgeeks.org/fleurys-algorithm-for-printing-eulerian-path/
+
+https://www.geeksforgeeks.org/minimum-edges-required-to-add-to-make-euler-circuit/
